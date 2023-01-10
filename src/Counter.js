@@ -2,7 +2,7 @@ import React from 'react';
 import UpdateCounter from './UpdateCounter';
 
 const displayCounter = () => {
-  return 1;
+  return <UpdateCounter />;
 };
 
 export default displayCounter;
