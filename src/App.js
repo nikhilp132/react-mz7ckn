@@ -1,13 +1,14 @@
 import React from 'react';
 import './style.css';
-import Counter from './Counter';
+import DisplayCounter from './DisplayCounter';
 
 export default function App() {
   return (
     <div>
       <h1>
-        <Counter />
+        <DisplayCounter />
       </h1>
+      <button onClick={myFunc}>Click Me</button>
     </div>
   );
 }
